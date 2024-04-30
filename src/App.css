@@ -1,0 +1,90 @@
+/* .container {
+  border: 2px solid black;
+  height: 400px;
+  width: 600px;
+  margin-left: 200px;
+  border-radius: 10px ;
+  margin-top: 150px;
+}
+
+.modal {
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+.modal-title {
+  color: brown;
+}
+.form-error{
+  color: red;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-left {
+  width: 400px;
+}
+
+.modal-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.modal-desc {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.input-block {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-error {
+  color: red;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
