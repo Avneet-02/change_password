@@ -1,4 +1,4 @@
-//
+
 
 import React from "react";
 import { useFormik } from "formik";
@@ -48,7 +48,7 @@ export const Registration = () => {
                     type="text"
                     name="name"
                     autoComplete="off"
-                    id="name"
+                    id="name"                                                                     
                     placeholder="Name"
                     value={values.name}
                     onChange={handleChange}
